@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="Control Input Viewer" type="rqt_control.ROScontrol.ROSControl" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for drawing control input history in matplotlib
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>Control Inputs</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Use to visualize control inputs published over ROS topics.</statustip>
+    </qtgui>
+  </class>
+</library>

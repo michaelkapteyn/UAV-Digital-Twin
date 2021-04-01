@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="Sensor Monitor" type="rqt_sensor.ROSsensor.ROSSensor" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for plotting sensor data in matplotlib
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>Sensor</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Use to visualize sensor data over a ROS topic.</statustip>
+    </qtgui>
+  </class>
+</library>

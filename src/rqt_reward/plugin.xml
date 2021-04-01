@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="Reward Monitor" type="rqt_reward.ROSreward.ROSReward" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for plotting reward functions in matplotlib
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>Reward</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Use to visualize reward over a ROS topic.</statustip>
+    </qtgui>
+  </class>
+</library>

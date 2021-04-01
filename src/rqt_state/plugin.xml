@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="State Trajectory Viewer" type="rqt_state.ROSstate.ROSState" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for drawing state histories in matplotlib
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>State Histories</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Use to visualize state histories over ROS topics.</statustip>
+    </qtgui>
+  </class>
+</library>

@@ -1,0 +1,11 @@
+float64[] total
+float64[] total_var
+float64[] state
+float64[] state_var
+float64[] control
+float64[] control_var
+float64[] policy
+float64[] policy_var
+float64[] outputerror
+float64[] outputerror_var
+int32[] type

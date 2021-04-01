@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="Network Viewer" type="rqt_network.ROSnetwork.ROSNetwork" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A plugin for drawing network graphs in matplotlib
+    </description>
+    <qtgui>
+      <group>
+        <label>Visualization</label>
+      </group>
+      <label>Network</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Use to visualize networks over ROS topics.</statustip>
+    </qtgui>
+  </class>
+</library>
